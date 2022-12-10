@@ -14,10 +14,7 @@
   min-height: 600px;
   max-height: 756px;
   position: relative;
-  border: solid 2px red;
   display: flex;
-
-
 }
 .header__logo_place{
   position: absolute;
@@ -35,7 +32,6 @@
   font-weight: 600;
   padding-left: 64px;
   z-index: 2;
-
 }
 .header__subtitle{
   margin: 0%;
@@ -56,25 +52,49 @@
   right: 0;
   z-index: 1;
 }
-.square-pic{
-  height: 568px;
-  width: 568px;
-  position: absolute;
-  right: 0%;
-  top: 64px;
-  background-color: #2f80ed;
-}
-
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+.description{
+  border: solid 2px red;
+  width: 80%;
+  min-width: 784px;
+  margin: 0 auto;
+}
+.description__two-columns{
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+.two-columns__brief{
+  margin: 0;
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.two-columns__main-text{
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.span-accent{
+  margin: 0;
+  font-weight: 600;
+  line-height: 34px;
+  font-size: 24px;
 }
