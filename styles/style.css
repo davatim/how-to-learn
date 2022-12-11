@@ -103,7 +103,7 @@
 }
   .two-columns__paragraph{
     margin: 0;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
 
   }
   .two-columns__paragraph:last-child {
@@ -236,7 +236,7 @@
   background-repeat: no-repeat;
   position: absolute;
   z-index: 1;
-  right: -210px ;
+  right: -210px;
   top: 0;
   height: 877px;
   width: 877px;
