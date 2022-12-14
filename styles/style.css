@@ -79,15 +79,15 @@
 }
 
 .description {
-  width: 80%;
   margin: 0 auto;
 }
 
 .two-columns {
-  min-width: 784px;
+  width: 80%;
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
+  margin: auto;
   justify-content: space-between;
 }
 
@@ -285,11 +285,14 @@
   justify-content: space-between;
 }
 
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__column_content_copyright {
   justify-content: space-between;
   flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
 }
 
 .logo_place_footer {
@@ -297,17 +300,12 @@
   height: 32px;
 }
 
-.footer__column_author {
+.footer__author {
   margin: 18px 0;
   color: white;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__column-heading {
@@ -333,8 +331,6 @@
 
 .footer__column_content_social {
   color: white;
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__column-link {
@@ -345,7 +341,7 @@
   text-decoration: none;
 }
 
-.footer__column_social-icon {
+.footer__social-icon {
   height: 16px;
   margin-right: 10px;
   width: 16px;
