@@ -87,9 +87,13 @@
   background-color: #2f80ed;
 }
 
+
+
 .description {
   margin: 0 auto;
 }
+
+
 
 .two-columns {
   width: 80%;
@@ -187,6 +191,67 @@
   font-weight: normal;
   margin: 0;
   padding-top: 20px;
+}
+
+.techniques {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards{
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;  
+}
+
+.cards__item {
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-right: 100px;
+}
+
+.cards__image{
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  justify-content: space-between;  
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.cards__title{
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cards__description{
+  padding-top: 16px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video{
+  margin: 100px auto 0;
+}
+
+.video__iframes{
+  display: flex;
+  min-width: 515px;
+  min-height: 316px;
+  margin: 0 auto;
+  padding-top: 50px;
+  justify-content: center;
+}
+.video__iframe:last-child{
+  padding-left: 20px;
 }
 
 .feynman {
