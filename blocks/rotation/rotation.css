@@ -6,6 +6,10 @@
         transform: rotate(360deg);
     }
 }
-.header__rotation{
-    animation:  rotation linear 20s infinite;    
+.header_rotation{
+    animation: rotation linear 20s infinite;    
+}
+
+.kaufman__triangle_rotation {
+    animation: rotation linear 20s infinite;
 }

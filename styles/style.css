@@ -97,10 +97,10 @@
 
 .two-columns {
   width: 80%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin: 100px auto 0;
+  /* padding-bottom: 100px; */
   display: flex;
-  margin: auto;
+  /* margin: auto; */
   justify-content: space-between;
 }
 
@@ -138,6 +138,7 @@
 }
 
 .digits {
+  padding-top: 100px;
   padding-bottom: 100px;
   margin: 0 auto;
 }
@@ -196,6 +197,7 @@
 .techniques {
   width: 80%;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 .cards{
@@ -203,26 +205,27 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;  
+  box-sizing: border-box;
+  column-gap: 100px;
 }
 
 .cards__item {
-  width: 200px;
-  margin: 0 auto;
+  width: 240px;
+  margin: 0;
   padding-top: 60px;
-  padding-right: 100px;
 }
 
 .cards__image{
   width: 160px;
   height: 160px;
   margin: 0 auto;
-  justify-content: space-between;  
   border-radius: 50%;
-  justify-content: center;
+  padding: 0 40px;
 }
 
 .cards__title{
   margin: 0 auto;
+  padding-top: 43px;
   text-align: center;
   line-height: 1.15;
   font-size: 24px;
@@ -298,6 +301,70 @@
   color: #2f80ed;
 }
 
+.khan{
+  width: 80%;
+  margin: 0;
+}
+
+.khan__author{
+  margin: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title{
+  margin:  0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.khan__quote{
+  margin: 0;
+  width: 790px;
+  padding-top: 50px;
+  padding-bottom: 36px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author{
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+.khan__quote-author-subline{
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 68px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container{
+  margin: 0;
+  position: relative;
+}
+
+.khan__book-pic{
+  margin: 0;
+  padding-right: 48px;
+  width: 608px;
+  height: 620px;
+}
+.khan__buy-link{
+  margin: 0;
+  position: absolute;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
 .kaufman {
   position: relative;
   overflow: hidden;
@@ -341,6 +408,22 @@
   height: 877px;
   width: 877px;
 }
+
+.resources{
+  margin: 100px auto 217px;
+}
+
+.resourses__logo-zone{
+  width: 1100px;
+  margin: 80px auto 0;
+  display: flex;
+}
+
+.resourses__link{
+  width: 270px;
+  height: 38px;
+  /* justify-content: center; */
+text-align: center;}
 
 .footer {
   padding-top: 60px;
