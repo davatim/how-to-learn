@@ -16,7 +16,7 @@
   position: relative;
   display: flex;
   background-color: #f2f2f2;
-  overflow: hidden;      
+  overflow: hidden;
 }
 
 .logo {
@@ -62,11 +62,11 @@
 
 /* Сделать также для всех ссылок */
 
-/* 
+
 .header__link:hover {
   opacity: 0.5;
   transition: ease 1s;
-} */
+}
 
 .header__main-illustration {
   height: 608px;
@@ -159,7 +159,7 @@
   padding-top: 20px;
   width: 60%;
   margin: 0 auto;
-  height: 34px;
+  line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
@@ -204,7 +204,7 @@
   width: 920px;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;  
+  margin: 0 auto;
   box-sizing: border-box;
   column-gap: 100px;
 }
@@ -242,7 +242,7 @@
 }
 
 .video{
-  margin: 100px auto 0;
+  margin: 100px auto -60px;
 }
 
 .video__iframes{
@@ -253,8 +253,19 @@
   padding-top: 50px;
   justify-content: center;
 }
+
+.video__iframe{
+  width: 560px;
+  height: 315px;
+  border: 0;
+}
+
 .video__iframe:last-child{
   padding-left: 20px;
+}
+
+.oakley{
+  padding-top: 60px;
 }
 
 .feynman {
@@ -299,6 +310,11 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
+  transition: ease 1s;
 }
 
 .khan{
@@ -365,6 +381,11 @@
   font-weight: normal;
 }
 
+.khan__buy-link:hover {
+  opacity: 0.5;
+  transition: ease 1s;
+}
+
 .kaufman {
   position: relative;
   overflow: hidden;
@@ -423,7 +444,13 @@
   width: 270px;
   height: 38px;
   /* justify-content: center; */
-text-align: center;}
+text-align: center;
+}
+
+.resourses__link:hover {
+  opacity: 0.7;
+  transition: ease 1.5s;
+}
 
 .footer {
   padding-top: 60px;
@@ -496,6 +523,11 @@ text-align: center;}
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
+  transition: ease 1s;
 }
 
 .footer__social-icon {
