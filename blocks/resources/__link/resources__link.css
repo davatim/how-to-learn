@@ -1,10 +1,10 @@
-.resourses__link {
+.resources__link {
   width: 270px;
   height: 38px;
   text-align: center;
 }
 
-.resourses__link:hover {
+.resources__link:hover {
   opacity: 0.7;
   transition: ease 1.5s;
 }
