@@ -1,15 +1,15 @@
 @keyframes rotation {
-    from {
-        transform: rotate(0deg);  
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-.header_rotation{
-    animation: rotation linear 20s infinite;    
+.header_rotation {
+  animation: rotation linear 20s infinite;
 }
 
 .kaufman__triangle_rotation {
-    animation: rotation linear 20s infinite;
+  animation: rotation linear 20s infinite;
 }
